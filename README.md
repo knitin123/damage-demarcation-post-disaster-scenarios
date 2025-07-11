@@ -51,4 +51,28 @@ In the aftermath of natural disasters such as earthquakes, timely and accurate s
 ├── processed_images/ # Output with damage marked
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+ 
+Designed and implemented a real-time client-server architecture using Python's socket programming to simulate communication between drones and a central supervisor server.
+
+Developed multi-threaded server logic to handle simultaneous image streams from multiple clients.
+
+Built the image processing pipeline using OpenCV for:
+
+Noise reduction
+
+Edge detection
+
+Contour extraction
+
+Damage zone demarcation on drone images
+
+Integrated a lightweight classification mechanism to assess the level of structural damage in buildings captured post-disaster.
+
+Implemented file handling mechanisms to automatically save processed images with damage annotations for further analysis.
+
+Tested and simulated multiple client (drone) instances to demonstrate real-time processing capabilities.
+
+Wrote modular, readable, and maintainable code, organized across logical components (server, client, processing).
+
+Documented the project with a detailed README and usage instructions for reproducibility.
 
